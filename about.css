@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F1F0EE;
+    font-family: 'Sacramento', cursive;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+

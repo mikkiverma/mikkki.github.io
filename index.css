@@ -1,0 +1,523 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F1F0EE;
+/* transition: 7s; */
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    
+}
+ 
+
+#info{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Sacramento', cursive;
+    color: #3D1053;
+
+}
+
+#logo{  
+    /* padding-bottom: 15px; */
+    /* border: 1px solid gray; */
+    padding-left: 5px;
+    padding-right: 125px;
+}
+
+#bottom{
+    display: none;
+}
+#sm{ 
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid grey; */
+    margin-right: 260px;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.social{
+    margin: 3px;
+    padding-left: 40px;
+    padding-right: 60px;
+    transition: 0.5s;
+
+}
+#youtube:hover{
+    transform: scale(1.7);
+
+}
+#insta:hover{
+    transform: scale(1.5);
+}
+#fb:hover{
+    transform: scale(1.5);
+}
+#twitter:hover{
+    transform: scale(1.7);
+}
+
+#nav img{
+    height: 80px;
+    
+}
+
+#so{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid gray; */
+    align-items: center;
+}
+
+.box{
+    padding: 15px;
+    margin: 10px;
+    margin-top: 13px;
+    /* border: 1px solid gray; */
+}
+
+
+.box a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3D1053;
+    
+    /* border: 1px solid grey; */
+    font-family: 'Poiret One', cursive;
+    padding: 10px; 
+    transition: 0.5s;
+    
+}
+
+.box a:hover {
+    color: white;
+    border-radius: 9px;
+    background-color: #321f28;
+    
+}
+
+#mid{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 350px;
+    
+
+}
+
+#max{
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+   
+    width: 70%;
+    color: #3D1053;
+    font-family: 'Sacramento', cursive;
+}
+
+#min{ display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    
+}
+
+#max h1{
+    margin: 15px;
+
+}
+#min img{
+    border-radius: 9px;
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#contact{
+    display: none;
+}
+
+#min img:hover{
+transform: scale(1.2);
+/* height: 440px;
+width: 220px; */
+
+}
+
+
+/* MOBILE RESPONSE */
+
+@media (max-width:1024px) {
+    #sm{ 
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid grey; */
+        margin-right: 100px;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;}
+
+    .social{
+            margin: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+            transition: 0.5s;
+        
+        }
+    
+     .box{
+            padding: 8px;
+            margin: 5px;
+            margin-top: 20px;
+         }
+
+       
+
+        
+    .box a{
+                 font-weight: bold;
+                 text-decoration: none;
+                 color: #3D1053;
+                 font-family: 'Poiret One', cursive;
+                 padding: 7px; 
+                
+                 transition: 0.5s;
+    
+        }
+    }
+
+    @media (max-width:768px) {
+
+
+        #sm{ 
+            display: flex;
+            flex-direction: row;
+            /* border: 1px solid grey; */
+            margin-right: 1px;
+            justify-content: center;
+            align-items: center;
+            transition: 2s;
+            margin-right: 20px;
+        }
+    
+        .social{
+                margin: 3px;
+                padding-left: 5px;
+                padding-right: 5px;
+                transition: 0.5s;
+            
+            }
+        
+         .box{
+                padding: 8px;
+                margin: 5px;
+                margin-top: 20px;
+             }
+    
+    
+    
+            
+        .box a{
+                     font-weight: bold;
+                     text-decoration: none;
+                     color: #3D1053;
+                     font-family: 'Poiret One', cursive;
+                     padding: 3px; 
+                    
+                     transition: 0.5s;
+        
+            }
+            #logo{  
+
+                padding-left: 5px;
+                padding-right: 50px;
+            }
+            .social{
+               
+                padding-left: 5px;
+                padding-right: 5px;
+                transition: 0.5s;
+                /* margin-right:5px ; */
+            
+            }
+            #so{
+                padding-left:20px ;
+                padding-right:6px ;
+                margin-right: 10px;
+                display: flex;
+                justify-content: center;
+                /* border: 1px solid gray; */
+                align-items: center;
+            }
+
+    }
+
+    @media(max-width:415px){
+             
+        .box{
+            display: none;
+        }
+
+        #mid{
+            flex-direction: column;
+            height: 450px;
+        }
+        
+        #min{ display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #max{ display: none;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .social{
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        #so{
+            /* border: 1px solid gray; */
+            margin-left: 30px;
+            margin-right: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h1{
+            font-size: 20px;
+        }
+           
+        #bottom{
+            display: flex;
+            font-family: 'Comic Neue', cursive;
+            justify-content: center;
+            align-items: center;
+        }
+        #contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            /* border: 1px solid black; */
+            
+        }
+        
+    .btn2{ 
+        display: flex;
+        width: 50%;
+        /* border: 1px solid black; */
+        padding: 3px;
+        justify-content: center;
+        align-items: center;
+        background-color: #6A2C70;
+        border-radius: 9px;
+        margin: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .btn2 a{
+        padding: 3px;
+        text-decoration: none;
+        color: white;
+        background-color: #6A2C70;
+        font-family: 'Comic Neue', cursive;
+
+    }
+
+
+        }
+    @media(max-width:376px){
+             
+        .box{
+            display: none;
+        }
+
+        #mid{
+            flex-direction: column;
+            height: 380px;
+        }
+        
+        #min{ display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #min img{
+            height: 350px;
+            width: 175px;
+        }
+        
+        #max{ display: none;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .social{
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        #so{
+            /* border: 1px solid gray; */
+            margin-left: 30px;
+            margin-right: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h1{
+            font-size: 20px;
+        }
+           
+        #bottom{
+            display: flex;
+            font-family: 'Comic Neue', cursive;
+            justify-content: center;
+            align-items: center;
+        }
+        #contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            /* border: 1px solid black; */
+            
+        }
+        #logo{
+            padding-right: 10px;
+        }
+        
+    .btn2{ 
+        display: flex;
+        width: 50%;
+        /* border: 1px solid black; */
+        padding: 3px;
+        justify-content: center;
+        align-items: center;
+        background-color: #6A2C70;
+        border-radius: 9px;
+        margin: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .btn2 a{
+        padding: 3px;
+        text-decoration: none;
+        color: white;
+        background-color: #6A2C70;
+        font-family: 'Comic Neue', cursive;
+
+    }
+
+
+        }
+    @media(max-width:322px){
+             
+        .box{
+            display: none;
+        }
+
+        #mid{
+            flex-direction: column;
+            height: 320px;
+        }
+        
+        #min{ display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #min img{
+            height: 300px;
+            width: 150px;
+        }
+        
+        #max{ display: none;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .social{
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        #so{
+            /* border: 1px solid gray; */
+            margin-left: 10px;
+            margin-right: -35px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h1{
+            font-size: 20px;
+        }
+           
+        #bottom{
+            display: flex;
+            font-family: 'Comic Neue', cursive;
+            justify-content: center;
+            align-items: center;
+        }
+        #contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            /* border: 1px solid black; */
+            
+        }
+        #logo{
+            padding-right: 10px;
+        }
+        
+    .btn2{ 
+        display: flex;
+        width: 50%;
+        /* border: 1px solid black; */
+        padding: 3px;
+        justify-content: center;
+        align-items: center;
+        background-color: #6A2C70;
+        border-radius: 9px;
+        margin: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .btn2 a{
+        padding: 3px;
+        text-decoration: none;
+        color: white;
+        background-color: #6A2C70;
+        font-family: 'Comic Neue', cursive;
+
+    }
+    #logo{
+        padding-right: 1px;
+    }
+
+
+        }
+    
+
+
+    
+
+
+
+
+
+
